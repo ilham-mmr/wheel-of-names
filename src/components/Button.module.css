@@ -1,0 +1,31 @@
+.button{
+	height: 60px;
+	width: 200px;
+	background: #ADCF9F;
+    border-radius: 30rem;
+	/* position: absolute; */
+	/* margin-top: 20px;
+	margin-left: 80px; */
+	font-size: 30px;
+	color: white;
+	font-weight: 1000;
+	letter-spacing: 4px;
+	border: 1px solid white;
+	cursor: pointer;
+	box-shadow: none;
+
+	transition: 0.2s all;
+}
+.button:hover{
+	box-shadow: 0 5px 10px gray;
+
+} 
+
+.button:disabled,
+.button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+	cursor: not-allowed;
+
+}
