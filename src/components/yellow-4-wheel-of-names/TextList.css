@@ -1,11 +1,12 @@
 
+  
 .text-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-#text-list{
+.text-container textarea{
 
 	padding: 12px 20px;
 	margin: 2rem 2rem;

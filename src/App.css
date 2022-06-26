@@ -12,31 +12,3 @@ body {
 	justify-content: center;
 }
 
-.main{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	overflow: visible;
-	min-height: 100vh;
-	background: #76BA99;
-}
-
-
-
-.text-container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-#txtid {
-	
-	padding: 12px 20px;
-	margin: 2rem 2rem;
-	box-sizing: border-box;
-	border: 2px solid #ccc;
-	border-radius: 4px;
-	background-color: #ADCF9F;
-	white-space: pre-wrap;
-}
